@@ -1,0 +1,31 @@
+.sectionTitle{
+    text-align: center;
+    margin-bottom: 60px;
+    span{
+        font-size: 16px;
+        color: #ada282;
+        position: relative;
+        display: block;
+        line-height: 15px;
+        margin-bottom: 5px;
+    }
+    h2{
+        font-size: 36px;
+        color: #333;
+        padding-bottom: 20px;
+        position: relative;
+        @media (max-width:375px) {
+            font-size: 25px;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            width: 60px;
+            height: 3px;
+            background: #c0b596;
+        }
+    }
+}

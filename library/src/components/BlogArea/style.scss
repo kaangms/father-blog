@@ -1,0 +1,85 @@
+.blogArea{
+    padding: 100px 0px 70px;
+    background: #f5f5f5;
+    .blogWrap{
+        background: #fff;
+        margin-bottom: 30px;
+        .blogImage{
+            img{
+                -webkit-filter: grayscale(0);
+                -moz-filter: grayscale(0);
+                -o-filter: grayscale(0);
+                -ms-filter: grayscale(0);
+                filter: grayscale(0);
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+        }
+        &:hover{
+            .blogImage{
+                img{
+                    -webkit-filter: grayscale(50%);
+                    -moz-filter: grayscale(50%);
+                    -o-filter: grayscale(50%);
+                    -ms-filter: grayscale(50%);
+                    filter: grayscale(50%);
+                }
+            }
+        }
+        .blogContent{
+            padding: 20px 30px 30px;
+            background: #fff;
+            @media (max-width:576px) {
+                padding: 20px 15px 30px;
+            }
+            h3{
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 20px;
+                @media (max-width:576px) {
+                    font-size: 20px;
+                    line-height: 32px;
+                }
+                a{
+                    color: #000;
+                    transition: all .3s;
+                    &:hover{
+                        color: #c0b596;
+                    }
+                }
+            }
+            ul{
+                &.blogMeta{
+                    li{
+                        display: inline-block;
+                        padding: 0 10px;
+                        color: #c0b596;
+                        @media (max-width:576px) {
+                            padding:0 5px;
+                        }
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                        }
+                        &:first-child{
+                            padding-left: 0;
+                        }
+                        &:last-child{
+                            padding: 0;
+                            &::before{
+                                content: "|";
+                                margin-right: 10px;
+                                color: #ccc;
+                                @media (max-width:576px) {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

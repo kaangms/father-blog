@@ -1,0 +1,133 @@
+.testmonialArea{
+    @media (max-width:576px) {
+        padding-bottom: 125px;
+    }
+    .testimonialImages{
+
+    }
+    .testimonialContent{
+        margin-top: 50px;
+        @media (max-width:1200px) {
+            margin-top: 0;
+        }
+        @media (max-width:768px) {
+            margin-top: 40px;
+        }
+        @media (max-width:576px) {
+            text-align: center;
+        }
+        span{
+            font-size: 16px;
+            color: #ada282;
+            display: block;
+        }
+        h2{
+            font-size: 36px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            position: relative;
+            @media (max-width:375px) {
+                font-size: 25px;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                left: -68px;
+                top: 19px;
+                width: 60px;
+                height: 1px;
+                background: #c0b596;
+                @media (max-width:576px) {
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 60px;
+                }
+                @media (max-width:375px) {
+                    top: 50px;
+                }
+            }
+        }
+        .testmonialSlider{
+            .slideItem{
+                p{
+                    padding: 20px 33px 30px;
+                    padding-right: 50px;
+                    position: relative;
+                    @media (max-width:768px) {
+                        padding: 20px 15px 15px;
+                        padding-right: 0px;
+                    }
+                    &::before{
+                        position: absolute;
+                        left: 4px;
+                        top: 5px;
+                        content: "\f10d";
+                        font-family: 'FontAwesome';
+                        color: #c0b596;
+                        font-size: 30px;
+                        @media (max-width:768px) {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .thumbWrap{
+                   display: flex;
+                   align-items: center;
+                   @media (max-width:576px) {
+                        display: block;
+                    }
+                    .thumbImg{
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        margin-right: 20px;
+                        @media (max-width:576px) {
+                            margin: auto;
+                            margin-bottom: 15px;
+                        }
+                        img{
+                            border-radius: 50%;
+                        }
+                    }
+                    .imgContent{
+                        h4{
+                            font-size: 18px;
+                            font-family: 'Open Sans', sans-serif;
+                            font-weight: 600;
+                        }
+                        span{
+                            font-size: 16px;
+                            color: #666;
+                        }
+                    }
+                }
+                
+            }
+            .slick-dots{
+                text-align: right;
+                @media (max-width:576px) {
+                    text-align: center;
+                }
+                li{
+                    margin: 0;
+                    button{
+                        display: inline-block;
+                        height: 10px;
+                        width: 10px;
+                        background: #bbb;
+                        border-radius: 50%;
+                        &::before{
+                            display: none;
+                        }
+                    }
+                    &.slick-active{
+                        button{
+                            background: #c0b596;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

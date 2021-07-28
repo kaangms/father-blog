@@ -1,0 +1,12 @@
+.headerArea{
+    &.headerAreaStyleThree{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        @media (max-width:768px) {
+            position: static;
+        }
+    }
+}

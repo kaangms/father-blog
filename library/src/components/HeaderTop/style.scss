@@ -1,0 +1,101 @@
+.headerArea{
+    .headerTop {
+        .headerTopMainWrapper{
+            border-bottom: 1px solid rgba(255,255,255,.07);
+            padding: 10px 0;
+        }
+        background: #272c3f;
+        ul{
+            text-align: right;
+            @media (max-width:576px) {
+                text-align: center;
+            }
+            li{
+                display: inline-block;
+                padding: 15px;
+                color: #fff;
+                font-size: 15px;
+                color: #e0e0e0;
+                &:first-child{
+                    position: relative;
+                    padding-left: 0;
+                    &::before{
+                        position: absolute;
+                        content: "";
+                        right: 0;
+                        top: 14px;
+                        width: 1px;
+                        height: 25px;
+                        background: rgba(255,255,255,.07);
+                    }
+                    
+                }
+                &:last-child{
+                    padding-right: 0;
+                }
+                i{
+                    padding-right: 10px;
+                    color: #cbbc99;
+                    
+                }
+            }
+            &.accountLoginArea{
+                @media (max-width:576px) {
+                    justify-content: center!important;
+                }
+                li{
+                    padding-left: 0;
+                    @media (max-width:768px) {
+                       padding: 0;
+                    }
+                    &::before{
+                        display: none;
+                    }
+                }
+                
+            }
+        }
+        .btnStyle {
+            @media (max-width:576px) {
+                text-align: center!important;
+            }
+        }
+        .btnStyle{
+            a{
+                background: transparent;
+                font-size: 14px;
+                font-weight: 700;
+                color: #fff;
+                padding: 9px 15px;
+                border: 2px solid #c0b596;
+                border-radius: 47px;
+                text-transform: capitalize;
+                @media (max-width:1024px) {
+                    font-size: 12px;
+                    padding: 9px;
+                }
+            }
+        }
+    }
+    &.headerAreaStyleThree{
+        .headerTop{
+            background: transparent;
+            padding: 0;
+            @media (max-width:768px) {
+                background: #151a30;
+            }
+            .headerTopMainWrapper{
+                padding: 10px 15px;
+                background: #151a30;
+                @media (max-width:768px) {
+                    padding: 10px 0;
+                }
+                .btnStyle {
+                    a{
+                        padding: 9px 13px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,662 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "title": "Chai",
+      "text": "48 - 6 oz jars",
+      "date": "24",
+      "unitsInStock": 53
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "Chang",
+      "text": "24 - 12 oz bottles",
+      "date": "21",
+      "unitsInStock": 17
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "Chef Anton's Cajun Seasoning",
+      "text": "48 - 6 oz jars",
+      "date": "222",
+      "unitsInStock": 53
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "title": "Chef Anton's Gumbo Mix",
+      "text": "36 boxes",
+      "date": "21",
+      "unitsInStock": 0
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "title": "Grandma's Boysenberry Spread",
+      "text": "12 - 8 oz jars",
+      "date": 25,
+      "unitsInStock": 120
+    },
+    {
+      "id": 7,
+      "categoryId": 7,
+      "title": "Uncle Bob's Organic Dried Pears",
+      "text": "12 - 1 lb pkgs.",
+      "date": 30,
+      "unitsInStock": 15
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "Northwoods Cranberry Sauce",
+      "text": "12 - 12 oz jars",
+      "date": 40,
+      "unitsInStock": 100
+    },
+    {
+      "id": 9,
+      "categoryId": 6,
+      "title": "Mishi Kobe Niku",
+      "text": "18 - 500 g pkgs.",
+      "date": 97,
+      "unitsInStock": 29
+    },
+    {
+      "id": 10,
+      "categoryId": 8,
+      "title": "Ikura",
+      "text": "12 - 200 ml jars",
+      "date": 31,
+      "unitsInStock": 31
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "title": "Queso Cabrales",
+      "text": "1 kg pkg.",
+      "date": 21,
+      "unitsInStock": 22
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "title": "Queso Manchego La Pastora",
+      "text": "10 - 500 g pkgs.",
+      "date": 38,
+      "unitsInStock": 86
+    },
+    {
+      "id": 13,
+      "categoryId": 8,
+      "title": "Konbu",
+      "text": "2 kg box",
+      "date": 6,
+      "unitsInStock": 24
+    },
+    {
+      "id": 14,
+      "categoryId": 7,
+      "title": "Tofu",
+      "text": "40 - 100 g pkgs.",
+      "date": 23.25,
+      "unitsInStock": 35
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "title": "Genen Shouyu",
+      "text": "24 - 250 ml bottles",
+      "date": 15.5,
+      "unitsInStock": 39
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "title": "Pavlova",
+      "text": "32 - 500 g boxes",
+      "date": 17.45,
+      "unitsInStock": 29
+    },
+    {
+      "id": 17,
+      "categoryId": 6,
+      "title": "Guiza",
+      "text": "20 - 1 kg tins",
+      "date": 39,
+      "unitsInStock": 0
+    },
+    {
+      "id": 18,
+      "categoryId": 8,
+      "title": "Carnarvon Tigers",
+      "text": "16 kg pkg.",
+      "date": 62.5,
+      "unitsInStock": 42
+    },
+    {
+      "id": 19,
+      "categoryId": 3,
+      "title": "Teatime Chocolate Biscuits",
+      "text": "10 boxes x 12 pieces",
+      "date": 9.2,
+      "unitsInStock": 25
+    },
+    {
+      "id": 20,
+      "categoryId": 3,
+      "title": "Sir Rodney's Marmalade",
+      "text": "30 gift boxes",
+      "date": 81,
+      "unitsInStock": 40
+    },
+    {
+      "id": 21,
+      "categoryId": 3,
+      "title": "Sir Rodney's Scones",
+      "text": "24 pkgs. x 4 pieces",
+      "date": 10,
+      "unitsInStock": 3
+    },
+    {
+      "id": 22,
+      "categoryId": 5,
+      "title": "Gustaf's Knäckebröd",
+      "text": "24 - 500 g pkgs.",
+      "date": 21,
+      "unitsInStock": 104
+    },
+    {
+      "id": 23,
+      "categoryId": 5,
+      "title": "Tunnbröd",
+      "text": "12 - 250 g pkgs.",
+      "date": 9,
+      "unitsInStock": 61
+    },
+    {
+      "id": 24,
+      "categoryId": 1,
+      "title": "Guaraná Fantástica",
+      "text": "12 - 355 ml cans",
+      "date": 4.5,
+      "unitsInStock": 20
+    },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "title": "NuNuCa Nuß-Nougat-Creme",
+      "text": "20 - 450 g glasses",
+      "date": 14,
+      "unitsInStock": 76
+    },
+    {
+      "id": 26,
+      "categoryId": 3,
+      "title": "Gumbär Gummibärchen",
+      "text": "100 - 250 g bags",
+      "date": 31.23,
+      "unitsInStock": 15
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "title": "Schoggi Schokolade",
+      "text": "100 - 100 g pieces",
+      "date": 43.9,
+      "unitsInStock": 49
+    },
+    {
+      "id": 28,
+      "categoryId": 7,
+      "title": "Rössle Sauerkraut",
+      "text": "25 - 825 g cans",
+      "date": 45.6,
+      "unitsInStock": 26
+    },
+    {
+      "id": 29,
+      "categoryId": 6,
+      "title": "Thüringer Rostbratwurst",
+      "text": "50 bags x 30 sausgs.",
+      "date": 123.79,
+      "unitsInStock": 0
+    },
+    {
+      "id": 30,
+      "categoryId": 8,
+      "title": "Nord-Ost Matjeshering",
+      "text": "10 - 200 g glasses",
+      "date": 25.89,
+      "unitsInStock": 10
+    },
+    {
+      "id": 31,
+      "categoryId": 4,
+      "title": "Gorgonzola Telino",
+      "text": "12 - 100 g pkgs",
+      "date": 12.5,
+      "unitsInStock": 0
+    },
+    {
+      "id": 32,
+      "categoryId": 4,
+      "title": "Mascarpone Fabioli",
+      "text": "24 - 200 g pkgs.",
+      "date": 32,
+      "unitsInStock": 9
+    },
+    {
+      "id": 33,
+      "categoryId": 4,
+      "title": "Geitost",
+      "text": "500 g",
+      "date": 2.5,
+      "unitsInStock": 112
+    },
+    {
+      "id": 34,
+      "categoryId": 1,
+      "title": "Sasquatch Ale",
+      "text": "24 - 12 oz bottles",
+      "date": 14,
+      "unitsInStock": 111
+    },
+    {
+      "id": 35,
+      "categoryId": 1,
+      "title": "Steeleye Stout",
+      "text": "24 - 12 oz bottles",
+      "date": 18,
+      "unitsInStock": 20
+    },
+    {
+      "id": 36,
+      "categoryId": 8,
+      "title": "Inlagd Sill",
+      "text": "24 - 250 g  jars",
+      "date": 19,
+      "unitsInStock": 112
+    },
+    {
+      "id": 37,
+      "categoryId": 8,
+      "title": "Gravad lax",
+      "text": "12 - 500 g pkgs.",
+      "date": 26,
+      "unitsInStock": 11
+    },
+    {
+      "id": 38,
+      "categoryId": 1,
+      "title": "Côte de Blaye",
+      "text": "12 - 75 cl bottles",
+      "date": 263.5,
+      "unitsInStock": 17
+    },
+    {
+      "id": 39,
+      "categoryId": 1,
+      "title": "Chartreuse verte",
+      "text": "750 cc per bottle",
+      "date": 18,
+      "unitsInStock": 69
+    },
+    {
+      "id": 40,
+      "categoryId": 8,
+      "title": "Boston Crab Meat",
+      "text": "24 - 4 oz tins",
+      "date": 18.4,
+      "unitsInStock": 123
+    },
+    {
+      "id": 41,
+      "categoryId": 8,
+      "title": "Jack's New England Clam Chowder",
+      "text": "12 - 12 oz cans",
+      "date": 9.65,
+      "unitsInStock": 85
+    },
+    {
+      "id": 42,
+      "categoryId": 5,
+      "title": "Singaporean Hokkien Fried Mee",
+      "text": "32 - 1 kg pkgs.",
+      "date": 14,
+      "unitsInStock": 26
+    },
+    {
+      "id": 43,
+      "categoryId": 1,
+      "title": "Ipoh Coffee",
+      "text": "16 - 500 g tins",
+      "date": 46,
+      "unitsInStock": 17
+    },
+    {
+      "id": 44,
+      "categoryId": 2,
+      "title": "Gula Malacca",
+      "text": "20 - 2 kg bags",
+      "date": 19.45,
+      "unitsInStock": 27
+    },
+    {
+      "id": 45,
+      "categoryId": 8,
+      "title": "Rogede sild",
+      "text": "1k pkg.",
+      "date": 9.5,
+      "unitsInStock": 5
+    },
+    {
+      "id": 46,
+      "categoryId": 8,
+      "title": "Spegesild",
+      "text": "4 - 450 g glasses",
+      "date": 12,
+      "unitsInStock": 95
+    },
+    {
+      "id": 47,
+      "categoryId": 3,
+      "title": "Zaanse koeken",
+      "text": "10 - 4 oz boxes",
+      "date": 9.5,
+      "unitsInStock": 36
+    },
+    {
+      "id": 48,
+      "categoryId": 3,
+      "title": "Chocolade",
+      "text": "10 pkgs.",
+      "date": 12.75,
+      "unitsInStock": 15
+    },
+    {
+      "id": 49,
+      "categoryId": 3,
+      "title": "Maxilaku",
+      "text": "24 - 50 g pkgs.",
+      "date": 20,
+      "unitsInStock": 10
+    },
+    {
+      "id": 50,
+      "categoryId": 3,
+      "title": "Valkoinen suklaa",
+      "text": "12 - 100 g bars",
+      "date": 16.25,
+      "unitsInStock": 65
+    },
+    {
+      "id": 51,
+      "categoryId": 7,
+      "title": "Manjimup Dried Apples",
+      "text": "50 - 300 g pkgs.",
+      "date": 53,
+      "unitsInStock": 20
+    },
+    {
+      "id": 52,
+      "categoryId": 5,
+      "title": "Filo Mix",
+      "text": "16 - 2 kg boxes",
+      "date": 7,
+      "unitsInStock": 38
+    },
+    {
+      "id": 53,
+      "categoryId": 6,
+      "title": "Perth Pasties",
+      "text": "48 pieces",
+      "date": 32.8,
+      "unitsInStock": 0
+    },
+    {
+      "id": 54,
+      "categoryId": 6,
+      "title": "Tourtière",
+      "text": "16 pies",
+      "date": 7.45,
+      "unitsInStock": 21
+    },
+    {
+      "id": 55,
+      "categoryId": 6,
+      "title": "Pâté chinois",
+      "text": "24 boxes x 2 pies",
+      "date": 24,
+      "unitsInStock": 115
+    },
+    {
+      "id": 56,
+      "categoryId": 5,
+      "title": "Gnocchi di nonna Alice",
+      "text": "24 - 250 g pkgs.",
+      "date": 38,
+      "unitsInStock": 21
+    },
+    {
+      "id": 57,
+      "categoryId": 5,
+      "title": "Ravioli Angelo",
+      "text": "24 - 250 g pkgs.",
+      "date": 19.5,
+      "unitsInStock": 36
+    },
+    {
+      "id": 58,
+      "categoryId": 8,
+      "title": "Escargots de Bourgogne",
+      "text": "24 pieces",
+      "date": 13.25,
+      "unitsInStock": 62
+    },
+    {
+      "id": 59,
+      "categoryId": 4,
+      "title": "Raclette Courdavault",
+      "text": "5 kg pkg.",
+      "date": 55,
+      "unitsInStock": 79
+    },
+    {
+      "id": 60,
+      "categoryId": 4,
+      "title": "Camembert Pierrot",
+      "text": "15 - 300 g rounds",
+      "date": 34,
+      "unitsInStock": 19
+    },
+    {
+      "id": 61,
+      "categoryId": 2,
+      "title": "Sirop d'érable",
+      "text": "24 - 500 ml bottles",
+      "date": 28.5,
+      "unitsInStock": 113
+    },
+    {
+      "id": 62,
+      "categoryId": 3,
+      "title": "Tarte au sucre",
+      "text": "48 pies",
+      "date": 49.3,
+      "unitsInStock": 17
+    },
+    {
+      "id": 63,
+      "categoryId": 2,
+      "title": "Vegie-spread",
+      "text": "15 - 625 g jars",
+      "date": 43.9,
+      "unitsInStock": 24
+    },
+    {
+      "id": 64,
+      "categoryId": 5,
+      "title": "Wimmers gute Semmelknödel",
+      "text": "20 bags x 4 pieces",
+      "date": 33.25,
+      "unitsInStock": 22
+    },
+    {
+      "id": 65,
+      "categoryId": 2,
+      "title": "Louisiana Fiery Hot Pepper Sauce",
+      "text": "32 - 8 oz bottles",
+      "date": 21.05,
+      "unitsInStock": 76
+    },
+    {
+      "id": 66,
+      "categoryId": 2,
+      "title": "Louisiana Hot Spiced Okra",
+      "text": "24 - 8 oz jars",
+      "date": 17,
+      "unitsInStock": 4
+    },
+    {
+      "id": 67,
+      "categoryId": 1,
+      "title": "Laughing Lumberjack Lager",
+      "text": "24 - 12 oz bottles",
+      "date": 14,
+      "unitsInStock": 52
+    },
+    {
+      "id": 68,
+      "categoryId": 3,
+      "title": "Scottish Longbreads",
+      "text": "10 boxes x 8 pieces",
+      "date": 12.5,
+      "unitsInStock": 6
+    },
+    {
+      "id": 69,
+      "categoryId": 4,
+      "title": "Gudbrandsdalsost",
+      "text": "10 kg pkg.",
+      "date": 36,
+      "unitsInStock": 26
+    },
+    {
+      "id": 70,
+      "categoryId": 1,
+      "title": "Outback Lager",
+      "text": "24 - 355 ml bottles",
+      "date": 15,
+      "unitsInStock": 15
+    },
+    {
+      "id": 71,
+      "categoryId": 4,
+      "title": "Flotemysost",
+      "text": "10 - 500 g pkgs.",
+      "date": 21.5,
+      "unitsInStock": 26
+    },
+    {
+      "id": 72,
+      "categoryId": 4,
+      "title": "Mozzarella di Giovanni",
+      "text": "24 - 200 g pkgs.",
+      "date": 34.8,
+      "unitsInStock": 14
+    },
+    {
+      "id": 73,
+      "categoryId": 8,
+      "title": "Röd Kaviar",
+      "text": "24 - 150 g jars",
+      "date": 15,
+      "unitsInStock": 101
+    },
+    {
+      "id": 74,
+      "categoryId": 7,
+      "title": "Longlife Tofu",
+      "text": "5 kg pkg.",
+      "date": 10,
+      "unitsInStock": 4
+    },
+    {
+      "id": 75,
+      "categoryId": 1,
+      "title": "Rhönbräu Klosterbier",
+      "text": "24 - 0.5 l bottles",
+      "date": 7.75,
+      "unitsInStock": 125
+    },
+    {
+      "id": 76,
+      "categoryId": 1,
+      "title": "Lakkaliköör",
+      "text": "500 m",
+      "date": 18,
+      "unitsInStock": 57
+    },
+    {
+      "id": 77,
+      "categoryId": 2,
+      "title": "Original Frankfurter grüne Soße",
+      "text": "12 boxes",
+      "date": 13,
+      "unitsInStock": 32
+    },
+    {
+      "title": "Laptop",
+      "categoryId": 4,
+      "date": "1000",
+      "text": "1",
+      "unitsInStock": "2",
+      "id": 78
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Beverages",
+      "seoUrl": "beverages"
+    },
+    {
+      "id": 2,
+      "categoryName": "Condiments",
+      "seoUrl": "condiments"
+    },
+    {
+      "id": 3,
+      "categoryName": "Confections",
+      "seoUrl": "confections"
+    },
+    {
+      "id": 4,
+      "categoryName": "Dairy Products",
+      "seoUrl": "dairy-products"
+    },
+    {
+      "id": 5,
+      "categoryName": "Grains/Cereals",
+      "seoUrl": "grains-cereals"
+    },
+    {
+      "id": 6,
+      "categoryName": "Meat/Poultry",
+      "seoUrl": "meat-poultry"
+    },
+    {
+      "id": 7,
+      "categoryName": "Produce",
+      "seoUrl": "produce"
+    },
+    {
+      "id": 8,
+      "categoryName": "Seafood",
+      "seoUrl": "seafood"
+    }
+  ]
+}

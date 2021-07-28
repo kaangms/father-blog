@@ -1,0 +1,19 @@
+.blogPostArea{
+    padding: 100px 0px;
+    &.blogPostLeftArea{
+        padding-bottom: 40px;
+        .searchSidebarWrapper{
+            @media (max-width:768px) {
+                margin-top: 0;
+            }
+        }
+        .instagramWrap{
+            @media (max-width:768px) {
+                margin-bottom: 60px;
+            }
+        }
+    }
+    &.blogFullWidth{
+        padding-bottom: 40px;
+    }
+}

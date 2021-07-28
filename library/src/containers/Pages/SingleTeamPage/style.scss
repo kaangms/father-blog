@@ -1,0 +1,142 @@
+.singleTeamArea{
+    padding: 100px 0px 100px;
+    .singleTeamImgWrap{
+        background: #f5f5f5;
+        text-align: center;
+        padding: 45px 30px 0;
+        margin-bottom: 40px;
+        .singleTeamImg{
+            width: 380px;
+            height: 380px;
+            border-radius: 100%;
+            border: 15px solid #c0b596;
+            border-radius: 50%;
+            margin: auto;
+            margin-bottom: 45px;
+            @media (max-width:1024px) {
+                width: 310px;
+                height: 310px;
+                margin-bottom: 35px;
+            }
+            @media (max-width:768px) {
+                width: 270px;
+                height: 270px;
+                margin-bottom: 75px;
+            }
+            @media (max-width:576px) {
+                margin-bottom: 35px;
+            }
+            @media (max-width:370px) {
+                height: 200px;
+                width: 200px;
+            }
+            img{
+                border-radius: 50%;
+            }
+        }
+        h4{
+            padding: 25px;
+            font-size: 30px;
+            font-weight: 400;
+            background: #dddad3;
+            margin: 0 -30px;
+            @media (max-width:768px) {
+                font-size: 20px;
+            }
+        }
+    }
+    .singleTeamContent{
+        background: #f5f5f5;
+        padding: 30px;
+        margin-bottom: 40px;
+        h4{
+            text-align: center;
+            font-size: 30px;
+            color: #666;
+            margin: -30px;
+            margin-bottom: 0;
+            background: #ddd;
+            padding: 25px;
+            margin-bottom: 30px;
+            @media (max-width:768px) {
+                font-size: 20px;
+            }
+        }
+        ul{
+            &.teamMembarInfo{
+                margin-bottom: 20px;
+                li{
+                    margin-bottom: 15px;
+                    font-size: 16px;
+                    @media (max-width:1024px) {
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    span{
+                        font-family: "Playfair Display", serif;
+                        color: #333;
+                        font-weight: 700;
+                        font-size: 20px;
+                        display: inline-block;
+                        margin-right: 3px;
+                        @media (max-width:1024px) {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            &.socialShare{
+                li{
+                    display: inline-block;
+                    margin-right: 5px;
+                    a{
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        display: block;
+                        color: #333;
+                        border: 1px solid #ddd;
+                        &:hover{
+                            background: #c0b596;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .singleTeamInfo{
+        margin-top: 10px;
+        h3{
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+        h5{
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            margin-top: 50px;
+        }
+        ul{
+            li{
+                display: block;
+                padding-bottom: 10px;
+                &::before{
+                    content: "\f0da";
+                    font-family: 'fontawesome';
+                    margin-right: 10px;
+                    color: #c0b596;
+                }
+            }
+        }
+        span{}
+    }
+}

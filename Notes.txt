@@ -1,0 +1,12 @@
+1-Yönetim,Stratejik Yönetim,Girişimcilik,kobiler,insan kaynakları,Örgüt kültürü ve liderlik,aile işletmeleri,akademik danışmanlık
+
+
+Nav-
+-Anasayfa
+-Hakkında
+-blog
+-iletişim
+-Akademik yayınlar
+
+Anasayfa
+Banner,hakkında,danışmanlık,son haberler

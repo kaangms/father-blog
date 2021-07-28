@@ -1,0 +1,60 @@
+.contactForm{
+    .formInput{
+        margin-bottom: 30px;
+        input,
+        textarea,
+        select{
+            background: rgba(192, 181, 150, .2);
+            height: 50px;
+            padding: 6px 15px;
+            color: #fff;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border: 1px solid rgba(192, 181, 150, .5);
+            &:focus{
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-color: #c0b596;
+            }
+            &::-webkit-input-placeholder{
+                color: #bbb5a5;
+                font-size: 14px;
+            }
+        }
+        select{
+            color: #bbb5a5;
+            position: relative;
+            -webkit-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+            -moz-appearance: none;
+            background: rgb(72, 70, 76) url(../../images/select-icon.png) no-repeat calc(100% - 15px) center;
+        }
+        textarea{
+            height: 150px;
+            padding: 15px;
+        }
+        p{
+            text-transform: uppercase;
+            font-size: 12px;
+            color: #c0b596;
+        }
+    }
+    
+    button{
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        padding: 9px 25px;
+        border: 2px solid transparent;
+        text-transform: capitalize;
+        display: inline-block;
+        transition: all .3s;
+        background: #c0b596;
+        &:hover{
+            background:#d4c291;
+        }
+    }
+}

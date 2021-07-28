@@ -1,0 +1,96 @@
+.aboutArea{
+    padding: 120px 0px 100px;
+    .aboutImageWrap{
+        margin: 0px 20px 0px 20px;
+        position: relative;
+        z-index: 1;
+        @media (max-width:768px) {
+            margin-bottom: 40px;
+            margin-right: 0;
+        }
+        img{
+            @media (max-width:768px) {
+                width: 100%;
+            }
+        }
+        &::before{
+            content: "";
+            background-color: #c0b596;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: -20px;
+            top: -20px;
+            z-index: -1;
+        }
+        i{
+            border: 1px solid #fff;
+            height: 55px;
+            width: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            cursor: pointer;
+            transition: all .3s;
+            &:hover{
+                background: #d4c291;
+            }
+        }
+    }
+    .aboutContent{
+        span{
+            font-size: 16px;
+            color: #ada282;
+            display: block;
+        }
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 30px;
+            font-size: 15px;
+            @media (max-width:1200px) {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+        }
+        .signature{
+            margin-top: 35px;
+        }
+    }
+    &.aboutAreaStyleTwo{
+        padding: 100px 0px;
+        .aboutImageWrap{
+            margin: 0px 10px 10px 0px;
+            &::before{
+                left: auto;
+                right: -10px;
+                top:auto;
+                bottom: -10px;
+            }
+        }
+        .aboutContent{
+            @media (max-width:800px) {
+                margin-bottom: 40px;
+            }
+            h2{
+                position: relative;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: -68px;
+                    top: 19px;
+                    width: 60px;
+                    height: 1px;
+                    background: #c0b596;
+                }
+            }
+        }
+    }
+}

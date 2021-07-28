@@ -1,0 +1,28 @@
+.tagsWrap{
+    margin-bottom: 52px;
+    margin-top: 60px;
+    h3{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    ul{
+        li{
+            display: inline-block;
+            margin-right: 7px;
+            margin-bottom: 7px;
+            a{
+                background: #f5f5f5;
+                font-size: 14px;
+                display: inline-block;
+                padding: 9px 25px 10px;
+                color: #333;
+                transition: all .3s;
+                &:hover{
+                    background: #c0b596;
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+}

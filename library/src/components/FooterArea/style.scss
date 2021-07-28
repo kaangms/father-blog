@@ -1,0 +1,81 @@
+.footerArea{
+    background: #151a30;
+    .footerTopArea{
+        padding: 100px 0px 70px;
+        .footerLogo{
+            margin-bottom: 30px;
+            a{
+                display: inline-block;
+                margin-bottom: 30px;
+                img{
+                    height: 40px;
+                }
+            }
+            p{
+                color: #ddd;
+            }
+        }
+        .footerWrap{
+            margin-bottom: 30px;
+            h3{
+                font-size: 28px;
+                color: #fff;
+                margin-bottom: 30px;
+                @media (max-width:767px) {
+                    font-size: 24px;
+                }
+            }
+            ul{
+                li{
+                    margin-bottom: 10px;
+                    color: #ddd;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    a{
+                        color: #ddd;
+                        display: inline-block;
+                        &:hover{
+                            color: #c0b596;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerBottomArea{
+        .footerBottomContent{
+            border-top: 1px solid rgba(192, 181, 150, .3);
+            padding: 30px 0;
+            @media (max-width:375px) {
+                text-align: center;
+            }
+            span{
+                display: block;
+                color: #ddd;
+                font-size: 16px;
+                font-family: 'Playfair Display', serif;
+                @media (max-width:576px) {
+                    font-size: 14px;
+                }
+            }
+            .socialListFooter{
+                justify-content: flex-end;
+                display: flex;
+                @media (max-width:375px) {
+                    justify-content: center;
+                    margin-top: 15px;
+                }
+                li{
+                    margin-left: 15px;
+                    a{
+                        color: #ddd;
+                        &:hover{
+                            color: #c0b596;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

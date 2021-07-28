@@ -1,0 +1,37 @@
+.singleArea{
+    h2{
+        &.recentCaseTitle{
+
+        }
+    }
+    &.singlePortfolioArea{
+        padding-bottom: 0;
+        .singleContentArea {
+            .singleContentWrap{
+                p{
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.portfolioArea {
+    &.portfolioAreaStyleFour{
+        padding-bottom: 70px;
+        padding-top: 90px;
+        .sectionTitle{
+            text-align: left;
+            span{
+                display: none;
+            }
+            h2{
+                &::before{
+                    left: 0;
+                    transform: translateX(0)
+                }
+            }
+        }
+    }
+}

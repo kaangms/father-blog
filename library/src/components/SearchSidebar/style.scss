@@ -1,0 +1,36 @@
+.searchSidebarWrapper{
+    position: relative;
+    margin-bottom: 60px;
+    @media (max-width:768px) {
+        margin-top: 60px;
+    }
+    input{
+        height: 50px;
+        font-size: 17px;
+        padding: 6px 50px 6px 20px;
+        transition: all 0.3s;
+        border: 1px solid #ddd;
+        color: #333;
+        border-radius: 0px;
+        width: 100%;
+        box-shadow: none;
+        &:focus{
+            box-shadow: none;
+            outline: none;
+            border-color: #666
+        }
+    }
+    button{
+        background: #282e3f;
+        font-size: 20px;
+        color: #fff;
+        border: 0;
+        outline: 0;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        right: 0;
+        top: 0;
+    }
+}
